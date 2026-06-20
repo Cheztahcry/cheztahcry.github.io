@@ -5,20 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .bg-custom-light {
-            background-color: #f0f4f8;
-        }
-        .text-custom-primary {
-            color: #2c3e50;
-        }
-        .link-custom {
-            color: #34495e;
-        }
-        .link-custom:hover {
-            color: #1a252f;
-        }
-    </style>
+    <link href="assets/css/index.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    <link rel="icon" type="image/png" href="assets/logo.png">
 </head>
 <body class="d-flex flex-column min-vh-100">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -46,12 +35,27 @@
         </div>
     </header>
 
-    <section id="about" class="py-5">
+   <section id="about" class="py-5">
         <div class="container">
             <h2 class="text-center mb-4 text-custom-primary">About Me</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8 text-center">
                     <p class="text-secondary">I am passionate about building functional and responsive web applications. I prefer and have more experience in the backend side of development, focusing on creating clean, efficient, and scalable code while continually expanding my technical skills. However, I am flexible and readily adapt to frontend demands whenever necessary to ensure a project's success.</p>
+                    
+                    <!-- Devicon Official Logos -->
+                    <div class="mt-4 fs-1"> <!-- fs-1 makes them nice and large -->
+                        <i class="devicon-html5-plain colored me-2" title="HTML5"></i>
+                        <i class="devicon-css3-plain colored me-2" title="CSS3"></i>
+                        <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                        <i class="devicon-python-plain colored mx-2" title="Python"></i>
+                        <i class="devicon-flask-original colored mx-2" title="Flask"></i>
+                        <i class="devicon-php-plain colored mx-2" title="PHP"></i>
+                        <i class="devicon-csharp-plain colored mx-2" title="C#"></i>
+                        <i class="devicon-cplusplus-plain colored mx-2" title="C++"></i>
+                        <i class="devicon-mysql-original wordmark colored mx-2" title="MySQL"></i>
+                        <i class="devicon-godot-plain colored mx-2" title="Godot"></i>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -63,43 +67,78 @@
             
             <h3 class="mb-4 border-bottom pb-2 text-custom-primary">Web Development</h3>
             <div class="row mb-5">
+                <!-- Turispots -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Turispots</h5>
                             <p class="card-text text-secondary">A travel-focused platform designed to help users discover, plan, and seamlessly explore local destinations and attractions.</p>
-                            <p class="card-text mb-1"><strong>Frontend : HTML/CSS/JS</strong></p>
-                            <p class="card-text"><strong>Backend : </strong> N/A</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <i class="devicon-html5-plain colored me-2" title="HTML5"></i>
+                                <i class="devicon-css3-plain colored me-2" title="CSS3"></i>
+                                <i class="devicon-javascript-plain colored" title="JavaScript"></i>
+                            </div>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
                         </div>
                     </div>
                 </div>
+                
+                <!-- Rent House Subdivision -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Rent House Subdivision</h5>
                             <p class="card-text text-secondary">A property management system built to streamline rental listings, track tenant contracts, and manage housing unit availability.</p>
-                            <p class="card-text mb-1"><strong>Frontend : </strong> HTML/CSS/JS</p>
-                            <p class="card-text"><strong>Backend : </strong>PHP</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <i class="devicon-html5-plain colored me-2" title="HTML5"></i>
+                                <i class="devicon-css3-plain colored me-2" title="CSS3"></i>
+                                <i class="devicon-javascript-plain colored me-2" title="JavaScript"></i>
+                                <i class="devicon-php-plain colored" title="PHP"></i>
+                            </div>
+
+                            <a href="https://github.com/Cheztahcry/Rent-House-Subdivision.git" target="_blank" class="btn btn-sm btn-outline-dark">View on GitHub</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Lost And Found -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Lost And Found</h5>
                             <p class="card-text text-secondary">A community reporting application allowing users to securely post missing items, search matches, and connect safely to retrieve lost belongings.</p>
-                            <p class="card-text mb-1"><strong>Frontend : </strong> HTML/CSS/JS</p>
-                            <p class="card-text"><strong>Backend : </strong>PHP</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <i class="devicon-html5-plain colored me-2" title="HTML5"></i>
+                                <i class="devicon-css3-plain colored me-2" title="CSS3"></i>
+                                <i class="devicon-javascript-plain colored me-2" title="JavaScript"></i>
+                                <i class="devicon-php-plain colored" title="PHP"></i>
+                            </div>
+
+                            <a href="https://github.com/Cheztahcry/Lost-and-Found.git" target="_blank" class="btn btn-sm btn-outline-dark">View on GitHub</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Smoke Game Store -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Smoke Game Store</h5>
                             <p class="card-text text-secondary">An e-commerce storefront for video games featuring item catalogs, dynamic shopping carts, and a structured backend library dashboard.</p>
-                            <p class="card-text mb-1"><strong>Frontend : </strong>HTML/CSS/JS</p>
-                            <p class="card-text"><strong>Backend : </strong>Python/Flask</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <i class="devicon-html5-plain colored me-2" title="HTML5"></i>
+                                <i class="devicon-css3-plain colored me-2" title="CSS3"></i>
+                                <i class="devicon-javascript-plain colored me-2" title="JavaScript"></i>
+                                <i class="devicon-python-plain colored me-2" title="Python"></i>
+                                <i class="devicon-flask-original colored" title="Flask"></i>
+                            </div>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
                         </div>
                     </div>
                 </div>
@@ -107,61 +146,121 @@
 
             <h3 class="mb-4 border-bottom pb-2 text-custom-primary">Applications</h3>
             <div class="row mb-5">
+                <!-- Bank System -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Bank System</h5>
                             <p class="card-text text-secondary">A secure banking simulator managing user accounts, enforcing transaction safety rules, and processing deposits, withdrawals, and balance histories.</p>
-                            <p class="card-text mb-1"><strong>Frontend : </strong>C++</p>
-                            <p class="card-text"><strong>Backend : </strong>N/A</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <i class="devicon-cplusplus-plain colored" title="C++"></i>
+                            </div>
+
+                            <a href="https://github.com/Cheztahcry/Banking-System.git" target="_blank" class="btn btn-sm btn-outline-dark">View on GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-custom-primary fw-bold">Student Enrollment System</h5>
+                            <p class="card-text text-secondary">A desktop application managing student records, registration workflows, and active database integration.</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <i class="devicon-csharp-plain colored me-2" title="C#"></i>
+                                <i class="devicon-mysql-original wordmark colored" title="MySQL"></i>
+                            </div>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100 border-0 shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-custom-primary fw-bold">Personal Media Tracker</h5>
+                            <p class="card-text text-secondary">A mobile cataloging application inspired by MyAnimeList, allowing users to track and organize their progress across shows, movies, books, and games.</p>
+                            
+                            <div class="mb-3 fs-4">
+                                <!-- Using the Android logo to represent Kodular mobile development -->
+                                <i class="devicon-android-plain colored me-2" title="Android / Kodular"></i>
+                            </div>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            
 
             <h3 class="mb-4 border-bottom pb-2 text-custom-primary">Game Development</h3>
             <div class="row">
+                <!-- Tower Defense -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Tower Defense</h5>
                             <p class="card-text text-secondary">A strategy game where players must build, position, and upgrade defensive structures to protect a specific objective from increasingly difficult waves of enemies.</p>
-                            <p class="card-text mb-1"><strong>Game Engine: </strong> Pygame</p>
-                            <p class="card-text mb-1"><strong>Language : </strong>Python</p>
-                            <p class="card-text"><strong>Status : </strong>Completed</p>
+                            
+                            <div class="mb-2 fs-4">
+                                <i class="devicon-python-plain colored" title="Python / Pygame"></i>
+                            </div>
+                            <p class="card-text mb-3"><strong>Status : </strong>Completed</p>
+
+                            <a href="https://github.com/Cheztahcry/Tower-Defense.git" target="_blank" class="btn btn-sm btn-outline-dark">View on GitHub</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Floppy Bird Clone -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Floppy Bird (Clone)</h5>
                             <p class="card-text text-secondary">A side-scrolling arcade recreation tracking player scores, high-score memory retention, dynamic obstacle generation, and fine-tuned physics parameters.</p>
-                            <p class="card-text mb-1"><strong>Game Engine : </strong> Godot</p>
-                            <p class="card-text mb-1"><strong>Language : </strong>GDScript</p>
-                            <p class="card-text"><strong>Status : </strong>Completed</p>
+                            
+                            <div class="mb-2 fs-4">
+                                <i class="devicon-godot-plain colored" title="Godot / GDScript"></i>
+                            </div>
+                            <p class="card-text mb-3"><strong>Status : </strong>Completed</p>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Untitled: Zelda Like Game -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Untitled: Zelda Like Game</h5>
                             <p class="card-text text-secondary">An action-adventure framework featuring tile-based map rendering, top-down collision tracking, basic inventory systems, and character animations.</p>
-                            <p class="card-text mb-1"><strong>Game Engine : </strong> Godot</p>
-                            <p class="card-text mb-1"><strong>Language : </strong>GDScript</p>
-                            <p class="card-text"><strong>Status : </strong>In Progress</p>
+                            
+                            <div class="mb-2 fs-4">
+                                <i class="devicon-godot-plain colored" title="Godot / GDScript"></i>
+                            </div>
+                            <p class="card-text mb-3"><strong>Status : </strong>In Progress</p>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
                         </div>
                     </div>
                 </div>
+
+                <!-- Untitled: Survival Game -->
                 <div class="col-md-6 mb-4">
                     <div class="card h-100 border-0 shadow-sm">
                         <div class="card-body">
                             <h5 class="card-title text-custom-primary fw-bold">Untitled: Survival Game</h5>
                             <p class="card-text text-secondary">An atmospheric sandbox template processing resource harvesting routines, dynamic structural placement data, and active threat entity mechanics.</p>
-                            <p class="card-text mb-1"><strong>Game Engine : </strong>Godot</p>
-                            <p class="card-text mb-1"><strong>Language : </strong>GDScript</p>
-                            <p class="card-text"><strong>Status : </strong>In Progress</p>
+                            
+                            <div class="mb-2 fs-4">
+                                <i class="devicon-godot-plain colored" title="Godot / GDScript"></i>
+                            </div>
+                            <p class="card-text mb-3"><strong>Status : </strong>In Progress</p>
+
+                            <a href="#" class="btn btn-sm btn-outline-dark">Unavailable</a>
                         </div>
                     </div>
                 </div>

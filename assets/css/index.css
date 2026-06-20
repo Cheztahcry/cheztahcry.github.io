@@ -1,0 +1,19 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-custom-light {
+    background-color: #f0f4f8;
+}
+
+.text-custom-primary {
+    color: #2c3e50;
+}
+
+.link-custom {
+    color: #34495e;
+}
+
+.link-custom:hover {
+    color: #1a252f;
+}
